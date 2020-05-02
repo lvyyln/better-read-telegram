@@ -1,8 +1,8 @@
 using System.IO;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using Better_Read_Telegram.FunctionApp.BotSettings.Models.Bots;
 using Better_Read_Telegram.FunctionApp.Triggers;
-using Better_Read_Telegram.TelegramBot.Models.Bots;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;

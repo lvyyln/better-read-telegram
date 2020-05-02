@@ -80,8 +80,6 @@ C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Bett
 C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\bin\Debug\netcoreapp3.1\bin\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\bin\Debug\netcoreapp3.1\bin\Telegram.Bot.dll
 C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\bin\Debug\netcoreapp3.1\bin\Microsoft.WindowsAzure.Storage.dll
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\bin\Debug\netcoreapp3.1\bin\BetterTelegram.TelegramBot.dll
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\bin\Debug\netcoreapp3.1\bin\BetterTelegram.TelegramBot.pdb
 C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\obj\Debug\netcoreapp3.1\BetterTelegram.FunctionApp.csprojAssemblyReference.cache
 C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\obj\Debug\netcoreapp3.1\BetterTelegram.FunctionApp.AssemblyInfoInputs.cache
 C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.FunctionApp\obj\Debug\netcoreapp3.1\BetterTelegram.FunctionApp.AssemblyInfo.cs

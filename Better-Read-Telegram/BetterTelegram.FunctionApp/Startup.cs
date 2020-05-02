@@ -1,7 +1,7 @@
 using System.Reflection;
 using AzureFunctions.Extensions.Swashbuckle;
 using Better_Read_Telegram.FunctionApp;
-using Better_Read_Telegram.TelegramBot.Models.Bots;
+using Better_Read_Telegram.FunctionApp.BotSettings.Models.Bots;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
 
