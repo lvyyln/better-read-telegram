@@ -1,0 +1,8 @@
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\bin\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.deps.json
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\bin\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.dll
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\bin\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.pdb
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\obj\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.csprojAssemblyReference.cache
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\obj\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.AssemblyInfoInputs.cache
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\obj\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.AssemblyInfo.cs
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\obj\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.dll
+C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\BetterTelegram.TelegramBot\obj\Debug\netcoreapp3.1\BetterTelegram.TelegramBot.pdb

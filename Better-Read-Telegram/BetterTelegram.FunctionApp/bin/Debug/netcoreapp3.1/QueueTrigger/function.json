@@ -1,0 +1,17 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.3",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "methods": [
+        "post"
+      ],
+      "authLevel": "anonymous",
+      "name": "request"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/BetterTelegram.FunctionApp.dll",
+  "entryPoint": "Company.FunctionApp.SimpleExample.Run"
+}
