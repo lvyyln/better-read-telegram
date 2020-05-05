@@ -30,11 +30,13 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
         public override async Task Execute(Message message, TelegramBotClient botClient)
         {
             var chatId = message.Chat.Id;
+
             var bookService = new LoveRead();
             var bookInfo = await bookService.GetBookInfoAsync("http://loveread.ec/view_global.php?id=45105");
-            
-            await botClient.SendPhotoAsync(chatId, DownloadFile(bookInfo.ImageUrl));
-            await botClient.SendTextMessageAsync(chatId, "Hey right now we are working on it", parseMode: Telegram.Bot.Types.Enums.ParseMode.Markdown);
+
+            await botClient.SendPhoto(chatId, DownloadFile(bookInfo.ImageUrl));
+            await botClient.SendTextMessage(chatId, $"Author : {bookInfo.Author}, Book Title: {bookInfo.Name}, BookUrl : {bookInfo.Url}",
+                parseMode: Telegram.Bot.Types.Enums.ParseMode.Markdown);
         }
 
         private FileToSend DownloadFile(string fromUrl)
@@ -51,6 +53,7 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
                 tw.Write(bytes);
                 tw.Flush();
             }
+            
             var stream = new MemoryStream(bytes);
             return new FileToSend("File.jpg",stream);
         }
