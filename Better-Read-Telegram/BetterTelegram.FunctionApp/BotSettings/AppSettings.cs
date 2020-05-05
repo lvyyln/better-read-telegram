@@ -2,8 +2,8 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings
 {
     public class AppSettings
     {
-        public static string Url { get; set; } = "https://f9782638.ngrok.io/{0}";
-        public static string Name { get; set; } = "justabot";
-        public static string Key { get; set; } = "1004717496:AAE9tSKOb4OVT5-vWVcIaPXxyqjBUO6DtTI";
+        public static string Url { get; set; } = "https://0957b51f.ngrok.io/{0}";
+        public static string Name { get; set; } = "LoveRead";
+        public static string Key { get; set; } = "1161764640:AAECr0W_CG8kSgq78R3JBEMnCBOvB_gkff0";
     }
 }
