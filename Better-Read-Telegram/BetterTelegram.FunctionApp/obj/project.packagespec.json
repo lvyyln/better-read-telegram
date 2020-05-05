@@ -19,6 +19,9 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
+          "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\Better-Read-Telegram.Services\\Better-Read-Telegram.Services.csproj": {
+            "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\Better-Read-Telegram.Services\\Better-Read-Telegram.Services.csproj"
+          },
           "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\BetterTelegram.TelegramBot.csproj": {
             "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\BetterTelegram.TelegramBot.csproj"
           }
@@ -37,6 +40,10 @@
         "AzureFunctions.Extensions.Swashbuckle": {
           "target": "Package",
           "version": "[1.4.4, )"
+        },
+        "BetterRead.Shared": {
+          "target": "Package",
+          "version": "[1.6.0, )"
         },
         "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
           "target": "Package",

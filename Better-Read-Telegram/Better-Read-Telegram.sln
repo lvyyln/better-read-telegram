@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B41127AE-21D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterTelegram.FunctionApp", "BetterTelegram.FunctionApp\BetterTelegram.FunctionApp.csproj", "{6EB6B749-1336-45E5-A419-8B21671BB2DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better-Read-Telegram.Services", "Better-Read-Telegram.Services\Better-Read-Telegram.Services.csproj", "{3A25C75B-B268-47A4-BFF1-B38C486E682F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6EB6B749-1336-45E5-A419-8B21671BB2DA} = {B41127AE-21DE-493B-8C50-68D90164F5DA}
+		{3A25C75B-B268-47A4-BFF1-B38C486E682F} = {B41127AE-21DE-493B-8C50-68D90164F5DA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6EB6B749-1336-45E5-A419-8B21671BB2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6EB6B749-1336-45E5-A419-8B21671BB2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB6B749-1336-45E5-A419-8B21671BB2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB6B749-1336-45E5-A419-8B21671BB2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A25C75B-B268-47A4-BFF1-B38C486E682F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A25C75B-B268-47A4-BFF1-B38C486E682F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A25C75B-B268-47A4-BFF1-B38C486E682F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A25C75B-B268-47A4-BFF1-B38C486E682F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

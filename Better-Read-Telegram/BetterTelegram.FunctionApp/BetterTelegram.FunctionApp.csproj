@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="BetterRead.Shared" Version="1.6.0" />
         <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.3" />
       <PackageReference Include="AzureFunctions.Extensions.Swashbuckle" Version="1.4.4" />
       <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="4.1.1" />
@@ -23,6 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Better-Read-Telegram.Services\Better-Read-Telegram.Services.csproj" />
       <ProjectReference Include="..\BetterTelegram.TelegramBot\BetterTelegram.TelegramBot.csproj" />
     </ItemGroup>
 

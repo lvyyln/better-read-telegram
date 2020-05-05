@@ -6,6 +6,18 @@
     <e p="C:\Users\lvyyl\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\lvyyl\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Better-Read-Telegram.1900892747.00" t="ExcludeRecursive" />
     <e p="C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\better-read-telegram" t="IncludeFlat">
+      <e p="Better-Read-Telegram.Services" t="IncludeRecursive">
+        <e p="Better-Read-Telegram.Services.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BookService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Better-Read-Telegram.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Better-Read-Telegram.sln" t="IncludeFlat" />
       <e p="BetterTelegram.FunctionApp" t="IncludeRecursive">
         <e p="BetterTelegram.FunctionApp.csproj" t="IncludeRecursive" />
@@ -17,6 +29,7 @@
               <e p="BaseBot.cs" t="Include" />
             </e>
             <e p="Commands" t="Include">
+              <e p="BookInfoCommand.cs" t="Include" />
               <e p="Command.cs" t="Include" />
               <e p="StartCommand.cs" t="Include" />
             </e>
