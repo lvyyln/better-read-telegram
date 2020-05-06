@@ -13,6 +13,7 @@ namespace Better_Read_Telegram.FunctionApp.DependencyInjection
          /// <returns>IServiceCollection</returns>
          public static IServiceCollection RegisterDependencies(this IWebJobsBuilder builder) =>
              builder.Services
-                 .AddTransient<IBookService,BookService>();
+                 .AddTransient<IBookService, BookService>()
+                 .AddTransient<IBotsService, BotsService>();
      }
 }

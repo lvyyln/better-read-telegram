@@ -8,6 +8,18 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
     {
         public override string Name => "/start";
 
+        public override async Task CallBack(CallbackQuery callbackQuery, TelegramBotClient botClient)
+        {
+            await botClient.AnswerCallbackQueryAsync(
+                callbackQuery.Id,
+                $"Received {callbackQuery.Data}"
+            );
+
+            await botClient.SendTextMessageAsync(
+                callbackQuery.Message.Chat.Id,
+                $"Received {callbackQuery.Data}"
+            );
+        }
         public override bool Contains(Message message)
         {
             if (message.Type != Telegram.Bot.Types.Enums.MessageType.TextMessage)

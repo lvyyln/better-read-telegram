@@ -18,7 +18,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj": {
+            "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -33,6 +37,10 @@
         "BetterRead.Shared": {
           "target": "Package",
           "version": "[1.6.0, )"
+        },
+        "Telegram.Bot": {
+          "target": "Package",
+          "version": "[10.4.0, )"
         }
       },
       "imports": [

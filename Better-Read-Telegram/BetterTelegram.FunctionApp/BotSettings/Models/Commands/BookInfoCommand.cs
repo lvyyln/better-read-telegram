@@ -3,11 +3,13 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using Better_Read_Telegram.Services;
 using BetterRead.Shared;
 using BetterRead.Shared.Domain.Books;
 using Telegram.Bot;
+using Telegram.Bot.Args;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.ReplyMarkups;
 
@@ -21,28 +23,52 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
 
         static InlineKeyboardMarkup _myInlineKeyboard;
 
+        public LoveRead LoveRead => new LoveRead();
         public override string Name => "http://loveread.ec/view_global.php?id=";
+
+        public override async Task CallBack(CallbackQuery callbackQuery, TelegramBotClient botClient)
+        {
+            await botClient.AnswerCallbackQueryAsync(
+                callbackQuery.Id,
+                $"Received {callbackQuery.Data}"
+            );
+
+            var t = await GetBookDocumentAsync(callbackQuery);
+
+            await botClient.SendDocumentAsync(
+                callbackQuery.Message.Chat.Id,
+                
+            );
+        }
 
         public override bool Contains(Message message) =>
             Int32.TryParse(message.Text, out _);
+
 
         public override async Task Execute(Message message, TelegramBotClient botClient)
         {
             MapKeyBoard();
             var chatId = message.Chat.Id;
 
-            var bookService = new LoveRead();
-            var bookInfo = await bookService.GetBookInfoAsync(Name + message.Text);
+
+            var bookInfo = await LoveRead.GetBookInfoAsync(Name + message.Text);
 
             await botClient.SendPhotoAsync(chatId, DownloadFile(bookInfo.ImageUrl));
             await botClient.SendTextMessageAsync(chatId, GenerateDataAboutBook(bookInfo),
                 parseMode: Telegram.Bot.Types.Enums.ParseMode.Markdown);
-            await botClient.SendTextMessageAsync(chatId, "Your_Text", replyMarkup: _myInlineKeyboard);
+            await botClient.SendTextMessageAsync(chatId, $"Ссилка на книгу: {bookInfo.Url}",
+                replyMarkup: _myInlineKeyboard);
         }
 
-        private FileToSend DownloadFile(string fromUrl)
+
+        private async Task<byte[]> GetBookDocumentAsync(CallbackQuery callbackQuery)
         {
-            byte[] bytes = null;
+            return await LoveRead.GetBookDocument(
+                await LoveRead.GetBookAsync(callbackQuery.Message.Text.Split(":")[1]));
+        }
+
+        private FileToSend DownloadFile(string fromUrl, byte[] bytes = null)
+        {
             using (MemoryStream ms = new MemoryStream())
             {
                 using (WebClient client = new WebClient())
@@ -55,9 +81,12 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
                 tw.Flush();
             }
 
-            var stream = new MemoryStream(bytes);
-            return new FileToSend("File.jpg", stream);
+            return ConvertToFileToSend(bytes);
         }
+
+        private FileToSend ConvertToFileToSend(byte[] bytes) 
+            => new FileToSend("File", new MemoryStream(bytes));
+
 
         private string GenerateDataAboutBook(BookInfo bookInfo)
         {
@@ -73,8 +102,7 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
                 {
                     new InlineKeyboardButton[] //first row
                     {
-                        new InlineKeyboardButton("option1", "CallbackQuery1"), //first column
-                        new InlineKeyboardButton("option2", "CallbackQuery2") //second column
+                        new InlineKeyboardButton("Download Document", "CallbackQuery1")
                     }
                 }
             };

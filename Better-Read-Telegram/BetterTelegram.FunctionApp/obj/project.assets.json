@@ -2992,7 +2992,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "BetterRead.Shared": "1.6.0"
+          "BetterRead.Shared": "1.6.0",
+          "BetterTelegram.FunctionApp": "1.0.0",
+          "Telegram.Bot": "10.4.0"
         },
         "compile": {
           "bin/placeholder/Better-Read-Telegram.Services.dll": {}
@@ -9088,6 +9090,15 @@
       "warningLevel": 1,
       "message": "Package 'DocX 1.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "DocX",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  BetterTelegram.FunctionApp -> Better-Read-Telegram.Services -> BetterTelegram.FunctionApp.",
+      "libraryId": "BetterTelegram.FunctionApp",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

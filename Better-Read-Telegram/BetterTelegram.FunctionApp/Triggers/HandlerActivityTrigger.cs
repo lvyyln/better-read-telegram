@@ -11,34 +11,29 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Company.FunctionApp
 {
-    public class SimpleExample : BaseTrigger
+    public class HandlerActivityTrigger : BaseTrigger
     {
-
+        private readonly IBotsService _botsService;
+        public HandlerActivityTrigger(IBotsService botsService)
+        {
+            _botsService = botsService;
+        }
         [FunctionName("QueueTrigger")]
         public async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post")]
             HttpRequest request)
         {
-            
-            var commands = BaseBot.Commands;
+
             if (!TryGetDataFromStream(request.Body, out Update update))
                 return new BadRequestResult();
             
-            var message = update.Message;
-            var botClient = await BaseBot.GetBotClientAsync();
-
-            foreach (var command in commands)
-            {
-                if (command.Contains(message))
-                {
-                    await command.Execute(message, botClient);
-                    break;
-                }
-            }
+            _botsService.HandleCommand(update);
+            
             return new OkObjectResult("data");
         }
     } 
