@@ -29,155 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "BetterRead.Shared": {
-              "target": "Package",
-              "version": "[1.6.0, )"
-            },
-            "Telegram.Bot": {
-              "target": "Package",
-              "version": "[10.4.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj",
-        "projectName": "BetterTelegram.FunctionApp",
-        "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj",
-        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\Better-Read-Telegram.Services\\Better-Read-Telegram.Services.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\Better-Read-Telegram.Services\\Better-Read-Telegram.Services.csproj"
-              },
-              "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\BetterTelegram.TelegramBot.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\BetterTelegram.TelegramBot.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "AzureFunctions.Extensions.Swashbuckle": {
-              "target": "Package",
-              "version": "[1.4.4, )"
-            },
-            "BetterRead.Shared": {
-              "target": "Package",
-              "version": "[1.6.0, )"
-            },
-            "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
-              "target": "Package",
-              "version": "[4.1.1, )"
-            },
-            "Microsoft.NET.Sdk.Functions": {
-              "target": "Package",
-              "version": "[3.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\BetterTelegram.TelegramBot.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\BetterTelegram.TelegramBot.csproj",
-        "projectName": "BetterTelegram.TelegramBot",
-        "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\BetterTelegram.TelegramBot.csproj",
-        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.TelegramBot\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -190,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "BetterRead.Shared": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Telegram.Bot": {
               "target": "Package",
               "version": "[10.4.0, )"

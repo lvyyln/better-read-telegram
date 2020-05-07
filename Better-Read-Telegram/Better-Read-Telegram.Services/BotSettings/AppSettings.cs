@@ -1,4 +1,4 @@
-namespace Better_Read_Telegram.FunctionApp.BotSettings
+namespace Better_Read_Telegram.Services.BotSettings
 {
     public class AppSettings
     {

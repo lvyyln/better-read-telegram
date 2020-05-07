@@ -1,19 +1,14 @@
 using System;
-using System.Drawing;
 using System.IO;
 using System.Net;
-using System.Net.Http;
-using System.Threading;
 using System.Threading.Tasks;
-using Better_Read_Telegram.Services;
 using BetterRead.Shared;
 using BetterRead.Shared.Domain.Books;
 using Telegram.Bot;
-using Telegram.Bot.Args;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
+namespace Better_Read_Telegram.Services.BotSettings.Models.Commands
 {
     public class BookInfoCommand : Command
     {
@@ -37,7 +32,7 @@ namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
 
             await botClient.SendDocumentAsync(
                 callbackQuery.Message.Chat.Id,
-                
+                ConvertToFileToSend(t)
             );
         }
 

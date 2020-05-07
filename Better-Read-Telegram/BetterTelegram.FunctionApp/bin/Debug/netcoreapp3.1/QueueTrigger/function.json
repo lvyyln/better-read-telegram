@@ -13,5 +13,5 @@
   ],
   "disabled": false,
   "scriptFile": "../bin/BetterTelegram.FunctionApp.dll",
-  "entryPoint": "Company.FunctionApp.SimpleExample.Run"
+  "entryPoint": "Company.FunctionApp.HandlerActivityTrigger.Run"
 }

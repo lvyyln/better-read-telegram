@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands;
+using Better_Read_Telegram.Services.BotSettings.Models.Commands;
 using Telegram.Bot;
-using Command = Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands.Command;
-using StartCommand = Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands.StartCommand;
+using Command = Better_Read_Telegram.Services.BotSettings.Models.Commands.Command;
+using StartCommand = Better_Read_Telegram.Services.BotSettings.Models.Commands.StartCommand;
 
-namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Bots
+namespace Better_Read_Telegram.Services.BotSettings.Models.Bots
 {
     public static class BaseBot
     {

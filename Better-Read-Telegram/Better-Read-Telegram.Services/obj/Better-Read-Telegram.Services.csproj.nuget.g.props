@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">False</RestoreSuccess>
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
@@ -13,8 +13,6 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Azure_WebJobs_Script_ExtensionsMetadataGenerator Condition=" '$(PkgMicrosoft_Azure_WebJobs_Script_ExtensionsMetadataGenerator)' == '' ">C:\Users\lvyyl\.nuget\packages\microsoft.azure.webjobs.script.extensionsmetadatagenerator\1.1.3</PkgMicrosoft_Azure_WebJobs_Script_ExtensionsMetadataGenerator>
-    <PkgMicrosoft_NET_Sdk_Functions Condition=" '$(PkgMicrosoft_NET_Sdk_Functions)' == '' ">C:\Users\lvyyl\.nuget\packages\microsoft.net.sdk.functions\3.0.3</PkgMicrosoft_NET_Sdk_Functions>
     <PkgDocX Condition=" '$(PkgDocX)' == '' ">C:\Users\lvyyl\.nuget\packages\docx\1.6.0</PkgDocX>
   </PropertyGroup>
 </Project>

@@ -1,4 +1,4 @@
-using Better_Read_Telegram.FunctionApp.BotSettings.Models.Bots;
+using Better_Read_Telegram.Services.BotSettings.Models.Bots;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 

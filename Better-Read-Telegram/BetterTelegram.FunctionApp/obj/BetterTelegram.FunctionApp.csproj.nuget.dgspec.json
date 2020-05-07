@@ -29,11 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Documents\\gitrepos\\better-read-telegram\\Better-Read-Telegram\\BetterTelegram.FunctionApp\\BetterTelegram.FunctionApp.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -128,10 +124,6 @@
             "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
               "target": "Package",
               "version": "[4.1.1, )"
-            },
-            "Microsoft.Azure.WebJobs.Extensions.Storage": {
-              "target": "Package",
-              "version": "[3.0.0, )"
             },
             "Microsoft.NET.Sdk.Functions": {
               "target": "Package",

@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
-namespace Better_Read_Telegram.FunctionApp.BotSettings.Models.Commands
+namespace Better_Read_Telegram.Services.BotSettings.Models.Commands
 {
     public abstract class Command
     {

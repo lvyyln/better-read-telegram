@@ -2145,7 +2145,8 @@
       },
       "Better-Read-Telegram.Services/1.0.0": {
         "dependencies": {
-          "BetterRead.Shared": "1.6.0"
+          "BetterRead.Shared": "1.6.0",
+          "Telegram.Bot": "10.4.0"
         },
         "runtime": {
           "Better-Read-Telegram.Services.dll": {}
