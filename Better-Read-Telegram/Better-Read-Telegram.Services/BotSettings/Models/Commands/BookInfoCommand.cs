@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Net;
+using System.Text;
 using System.Threading.Tasks;
 using BetterRead.Shared;
 using BetterRead.Shared.Domain.Books;
@@ -19,47 +20,53 @@ namespace Better_Read_Telegram.Services.BotSettings.Models.Commands
         static InlineKeyboardMarkup _myInlineKeyboard;
 
         public LoveRead LoveRead => new LoveRead();
+        public static string _bookId;
         public override string Name => "http://loveread.ec/view_global.php?id=";
 
         public override async Task CallBack(CallbackQuery callbackQuery, TelegramBotClient botClient)
         {
-            await botClient.AnswerCallbackQueryAsync(
-                callbackQuery.Id,
-                $"Received {callbackQuery.Data}"
-            );
-
-            var t = await GetBookDocumentAsync(callbackQuery);
-
+            var book = await LoveRead.GetBookAsync(_bookId);
+            var doc = await LoveRead.GetBookDocument(book);
+            byte[] data = Encoding.UTF32.GetBytes("Привет");
             await botClient.SendDocumentAsync(
                 callbackQuery.Message.Chat.Id,
-                ConvertToFileToSend(t)
+                ConvertToFileToSend(doc,Encoding.Unicode.GetString(data))
+            );
+
+            await botClient.AnswerCallbackQueryAsync(
+                callbackQuery.Id,
+                $"Документ відправлено"
             );
         }
 
         public override bool Contains(Message message) =>
-            Int32.TryParse(message.Text, out _);
+            Uri.IsWellFormedUriString(message.Text, UriKind.Absolute) &&
+            message.Text.StartsWith("http://loveread.ec/view_global.php?id=");
 
 
+        public static string Utf16ToUtf8(string utf16String)
+        {
+            // Get UTF16 bytes and convert UTF16 bytes to UTF8 bytes
+            byte[] utf16Bytes = Encoding.Unicode.GetBytes(utf16String);
+            byte[] utf8Bytes = Encoding.Convert(Encoding.Unicode, Encoding.UTF8, utf16Bytes);
+
+            // Return UTF8 bytes as ANSI string
+            return Encoding.Default.GetString(utf8Bytes);
+        }
+        
         public override async Task Execute(Message message, TelegramBotClient botClient)
         {
             MapKeyBoard();
             var chatId = message.Chat.Id;
 
-
-            var bookInfo = await LoveRead.GetBookInfoAsync(Name + message.Text);
+            _bookId = message.Text;
+            var bookInfo = await LoveRead.GetBookInfoAsync(message.Text);
 
             await botClient.SendPhotoAsync(chatId, DownloadFile(bookInfo.ImageUrl));
             await botClient.SendTextMessageAsync(chatId, GenerateDataAboutBook(bookInfo),
                 parseMode: Telegram.Bot.Types.Enums.ParseMode.Markdown);
-            await botClient.SendTextMessageAsync(chatId, $"Ссилка на книгу: {bookInfo.Url}",
+            await botClient.SendTextMessageAsync(chatId, "Скачати книгу:",
                 replyMarkup: _myInlineKeyboard);
-        }
-
-
-        private async Task<byte[]> GetBookDocumentAsync(CallbackQuery callbackQuery)
-        {
-            return await LoveRead.GetBookDocument(
-                await LoveRead.GetBookAsync(callbackQuery.Message.Text.Split(":")[1]));
         }
 
         private FileToSend DownloadFile(string fromUrl, byte[] bytes = null)
@@ -76,17 +83,17 @@ namespace Better_Read_Telegram.Services.BotSettings.Models.Commands
                 tw.Flush();
             }
 
-            return ConvertToFileToSend(bytes);
+            return ConvertToFileToSend(bytes, "Image.jpg");
         }
 
-        private FileToSend ConvertToFileToSend(byte[] bytes) 
-            => new FileToSend("File", new MemoryStream(bytes));
+        private FileToSend ConvertToFileToSend(byte[] bytes, string name)
+            => new FileToSend(name, new MemoryStream(bytes));
 
 
         private string GenerateDataAboutBook(BookInfo bookInfo)
         {
             return " Імя автора: " + bookInfo.Author +
-                   " Назва книги: " + bookInfo.Name;
+                   "\n Назва книги: " + bookInfo.Name;
         }
 
         private void MapKeyBoard()

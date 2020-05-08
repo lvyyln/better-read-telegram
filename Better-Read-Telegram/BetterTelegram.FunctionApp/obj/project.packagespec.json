@@ -43,7 +43,7 @@
         },
         "BetterRead.Shared": {
           "target": "Package",
-          "version": "[1.6.0, )"
+          "version": "[1.6.0.49-beta, )"
         },
         "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
           "target": "Package",

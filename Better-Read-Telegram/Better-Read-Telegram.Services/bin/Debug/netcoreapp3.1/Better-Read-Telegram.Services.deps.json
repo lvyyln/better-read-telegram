@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Better-Read-Telegram.Services/1.0.0": {
         "dependencies": {
-          "BetterRead.Shared": "1.6.0",
+          "BetterRead.Shared": "1.6.0.49-beta",
           "Telegram.Bot": "10.4.0"
         },
         "runtime": {
@@ -23,7 +23,7 @@
           }
         }
       },
-      "BetterRead.Shared/1.6.0": {
+      "BetterRead.Shared/1.6.0.49-beta": {
         "dependencies": {
           "BetterExtensions": "1.0.0.40-beta",
           "DocX": "1.6.0",
@@ -35,8 +35,8 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/BetterRead.Shared.dll": {
-            "assemblyVersion": "1.6.0.0",
-            "fileVersion": "1.6.0.0"
+            "assemblyVersion": "1.6.0.49",
+            "fileVersion": "1.6.0.49"
           }
         }
       },
@@ -825,12 +825,12 @@
       "path": "betterextensions/1.0.0.40-beta",
       "hashPath": "betterextensions.1.0.0.40-beta.nupkg.sha512"
     },
-    "BetterRead.Shared/1.6.0": {
+    "BetterRead.Shared/1.6.0.49-beta": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FDUsj35KkRb6M1WNhPMDbq5Ecr+spp7lNtrNlnvTWnqv0W9hJM38RmN1Vs6ZNIjWwwoLDUTRx9cxVnVHBWfRmw==",
-      "path": "betterread.shared/1.6.0",
-      "hashPath": "betterread.shared.1.6.0.nupkg.sha512"
+      "sha512": "sha512-00bn37A/Us8muv4OYlnDho1ulpdGfd+AemHVkjH1TySPEEuwFjHWE1/3axqviolJFA4wmO578OKx+V+08FPCbw==",
+      "path": "betterread.shared/1.6.0.49-beta",
+      "hashPath": "betterread.shared.1.6.0.49-beta.nupkg.sha512"
     },
     "DocX/1.6.0": {
       "type": "package",

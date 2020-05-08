@@ -25,7 +25,7 @@
           "lib/netcoreapp3.1/BetterExtensions.dll": {}
         }
       },
-      "BetterRead.Shared/1.6.0": {
+      "BetterRead.Shared/1.6.0.49-beta": {
         "type": "package",
         "dependencies": {
           "BetterExtensions": "1.0.0.40-beta",
@@ -2992,7 +2992,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "BetterRead.Shared": "1.6.0",
+          "BetterRead.Shared": "1.6.0.49-beta",
           "Telegram.Bot": "10.4.0"
         },
         "compile": {
@@ -3043,14 +3043,14 @@
         "lib/netcoreapp3.1/BetterExtensions.xml"
       ]
     },
-    "BetterRead.Shared/1.6.0": {
-      "sha512": "FDUsj35KkRb6M1WNhPMDbq5Ecr+spp7lNtrNlnvTWnqv0W9hJM38RmN1Vs6ZNIjWwwoLDUTRx9cxVnVHBWfRmw==",
+    "BetterRead.Shared/1.6.0.49-beta": {
+      "sha512": "00bn37A/Us8muv4OYlnDho1ulpdGfd+AemHVkjH1TySPEEuwFjHWE1/3axqviolJFA4wmO578OKx+V+08FPCbw==",
       "type": "package",
-      "path": "betterread.shared/1.6.0",
+      "path": "betterread.shared/1.6.0.49-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "betterread.shared.1.6.0.nupkg.sha512",
+        "betterread.shared.1.6.0.49-beta.nupkg.sha512",
         "betterread.shared.nuspec",
         "lib/netcoreapp3.1/BetterRead.Shared.dll",
         "lib/netcoreapp3.1/BetterRead.Shared.xml"
@@ -8992,7 +8992,7 @@
     ".NETCoreApp,Version=v3.1": [
       "AzureFunctions.Extensions.Swashbuckle >= 1.4.4",
       "Better-Read-Telegram.Services >= 1.0.0",
-      "BetterRead.Shared >= 1.6.0",
+      "BetterRead.Shared >= 1.6.0.49-beta",
       "BetterTelegram.TelegramBot >= 1.0.0",
       "Microsoft.Azure.WebJobs.Extensions.ServiceBus >= 4.1.1",
       "Microsoft.NET.Sdk.Functions >= 3.0.3"
@@ -9052,7 +9052,7 @@
           },
           "BetterRead.Shared": {
             "target": "Package",
-            "version": "[1.6.0, )"
+            "version": "[1.6.0.49-beta, )"
           },
           "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
             "target": "Package",
