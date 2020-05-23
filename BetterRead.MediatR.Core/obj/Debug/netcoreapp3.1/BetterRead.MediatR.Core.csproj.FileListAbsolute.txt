@@ -1,0 +1,8 @@
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\bin\Debug\netcoreapp3.1\BetterRead.MediatR.Core.deps.json
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\bin\Debug\netcoreapp3.1\BetterRead.MediatR.Core.dll
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\bin\Debug\netcoreapp3.1\BetterRead.MediatR.Core.pdb
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\obj\Debug\netcoreapp3.1\BetterRead.MediatR.Core.csprojAssemblyReference.cache
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\obj\Debug\netcoreapp3.1\BetterRead.MediatR.Core.AssemblyInfoInputs.cache
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\obj\Debug\netcoreapp3.1\BetterRead.MediatR.Core.AssemblyInfo.cs
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\obj\Debug\netcoreapp3.1\BetterRead.MediatR.Core.dll
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.MediatR.Core\obj\Debug\netcoreapp3.1\BetterRead.MediatR.Core.pdb

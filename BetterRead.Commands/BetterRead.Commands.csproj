@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BetterRead.Configuration\BetterRead.Configuration.csproj" />
+      <ProjectReference Include="..\BetterRead.MediatR.Core\BetterRead.MediatR.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BetterRead.Shared" Version="1.6.0.51-beta" />
+      <PackageReference Include="Telegram.Bot" Version="10.4.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\bin\Debug\netcoreapp3.1\BetterRead.Commands.deps.json
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\bin\Debug\netcoreapp3.1\BetterRead.Commands.dll
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\bin\Debug\netcoreapp3.1\BetterRead.Commands.pdb
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\bin\Debug\netcoreapp3.1\BetterRead.Configuration.dll
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\bin\Debug\netcoreapp3.1\BetterRead.MediatR.Core.dll
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\bin\Debug\netcoreapp3.1\BetterRead.Configuration.pdb
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\bin\Debug\netcoreapp3.1\BetterRead.MediatR.Core.pdb
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\obj\Debug\netcoreapp3.1\BetterRead.Commands.csprojAssemblyReference.cache
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\obj\Debug\netcoreapp3.1\BetterRead.Commands.AssemblyInfoInputs.cache
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\obj\Debug\netcoreapp3.1\BetterRead.Commands.AssemblyInfo.cs
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\obj\Debug\netcoreapp3.1\BetterRead.Commands.csproj.CopyComplete
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\obj\Debug\netcoreapp3.1\BetterRead.Commands.dll
+C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Commands\obj\Debug\netcoreapp3.1\BetterRead.Commands.pdb

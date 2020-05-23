@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55890b1f-89d3-4412-a65d-aa9febb9544d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Books/BookInfoCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Books/BookInfoCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Start/StartCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Start/StartCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/host.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Abstractions/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Abstractions/CommandHandlerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/IoC/TelegramModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/IoC/QueriesModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/IoC/FunctionModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.MediatR.Core/RequestHandlerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Configuration/BotConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Infrastructure/Abstractions/ICommandMatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Triggers/Abstractions/BaseTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.MediatR.Core/HandlerResults/Abstractions/IHandlerResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/BooksProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/DocumentProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/StartProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Triggers/UpdateTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Triggers/RegisterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Infrastructure/CommandMatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Validation/ValidationLinkCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Validation/ValidationLinkCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/ValidationProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/UnhandledProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.MediatR.Core/HandlerResults/SuccessHandlerResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F58F0715-195C-43D2-AE82-0C604FB53FE1/3B/OkResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.MediatR.Core/HandlerResults/ValidationFailedHandlerResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.MediatR.Core/HandlerResults/NotFoundHandlerResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/16/Profile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/0/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AF3A17FE-A995-4C60-9394-FB8BED79B753/49/590ea07b/ITelegramBotClient.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BetterRead.FunctionApp/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/DocumentProfile.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommand.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/UnhandledProfile.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Validation.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Validation/ValidationCommand.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.FunctionApp/Triggers/UpdateTrigger.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Validation/ValidationCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Validation/ValidationLinkCommand.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Validation/ValidationLinkCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/ValidationProfile.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.FunctionApp/Infrastructure/CommandMatcher.cs" />
+        <option value="$PROJECT_DIR$/BetterRead.Commands/Books/BookInfoCommandHandler.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cFvq0WSGkR2M3geMpky7XEMXao" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="AzureFunctionsHost" factoryName="Azure Functions host">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/BetterRead.FunctionApp/bin/Debug/netcoreapp3.1/BetterRead.FunctionApp.dll" />
+      <option name="PROGRAM_PARAMETERS" value="host start --port 443 --useHttps --cert certificate.pfx --password 123 --pause-on-error  " />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BetterRead.FunctionApp/bin/Debug/netcoreapp3.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BetterRead.FunctionApp/BetterRead.FunctionApp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="AzureFunctions" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="FUNCTION_NAMES" value="" />
+      <browser url="http://localhost:443" />
+      <method v="2">
+        <option name="BuildFunctionsProject" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55890b1f-89d3-4412-a65d-aa9febb9544d" name="Default Changelist" comment="" />
+      <created>1590137343085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590137343085</updated>
+      <workItem from="1590137344798" duration="193000" />
+      <workItem from="1590137576337" duration="1484000" />
+      <workItem from="1590143228473" duration="282000" />
+      <workItem from="1590143583220" duration="14998000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="514" y="214" key="#Default" timestamp="1590137527782">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="514" y="214" key="#Default/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590137527782" />
+    <state x="294" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590144985305">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="294" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590144985305" />
+    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1590147090646">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="428" height="466" key="DebuggerActiveHint/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590147090646" />
+    <state x="574" y="272" key="EnvironmentVariablesDialog" timestamp="1590138654996">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="574" y="272" key="EnvironmentVariablesDialog/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590138654996" />
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom" timestamp="1590173281808">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="275" key="GridCell.Tab.0.bottom/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281808" />
+    <state width="1637" height="275" key="GridCell.Tab.0.center" timestamp="1590173281808">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="275" key="GridCell.Tab.0.center/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281808" />
+    <state width="1637" height="275" key="GridCell.Tab.0.left" timestamp="1590173281808">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="275" key="GridCell.Tab.0.left/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281808" />
+    <state width="1637" height="275" key="GridCell.Tab.0.right" timestamp="1590173281808">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="275" key="GridCell.Tab.0.right/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281808" />
+    <state width="1637" height="340" key="GridCell.Tab.1.bottom" timestamp="1590173281788">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.bottom/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281788" />
+    <state width="1637" height="340" key="GridCell.Tab.1.center" timestamp="1590173281787">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.center/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281787" />
+    <state width="1637" height="340" key="GridCell.Tab.1.left" timestamp="1590173281787">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.left/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281787" />
+    <state width="1637" height="340" key="GridCell.Tab.1.right" timestamp="1590173281787">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.right/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281787" />
+    <state width="1637" height="340" key="GridCell.Tab.2.bottom" timestamp="1590173281788">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.2.bottom/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281788" />
+    <state width="1637" height="340" key="GridCell.Tab.2.center" timestamp="1590173281788">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.2.center/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281788" />
+    <state width="1637" height="340" key="GridCell.Tab.2.left" timestamp="1590173281788">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.2.left/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281788" />
+    <state width="1637" height="340" key="GridCell.Tab.2.right" timestamp="1590173281788">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.2.right/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281788" />
+    <state width="1637" height="340" key="GridCell.Tab.3.bottom" timestamp="1590173281789">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.3.bottom/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281789" />
+    <state width="1637" height="340" key="GridCell.Tab.3.center" timestamp="1590173281789">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.3.center/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281789" />
+    <state width="1637" height="340" key="GridCell.Tab.3.left" timestamp="1590173281788">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.3.left/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281788" />
+    <state width="1637" height="340" key="GridCell.Tab.3.right" timestamp="1590173281789">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.3.right/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281789" />
+    <state width="1637" height="340" key="GridCell.Tab.4.bottom" timestamp="1590173281789">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.4.bottom/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281789" />
+    <state width="1637" height="340" key="GridCell.Tab.4.center" timestamp="1590173281789">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.4.center/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281789" />
+    <state width="1637" height="340" key="GridCell.Tab.4.left" timestamp="1590173281789">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.4.left/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281789" />
+    <state width="1637" height="340" key="GridCell.Tab.4.right" timestamp="1590173281789">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.4.right/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590173281789" />
+    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1590149267931">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup/1680.-19.1536.840/0.0.1680.1020@0.0.1680.1020" timestamp="1590149267931" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" initialLine="24">
+            <startOffsets>
+              <option value="858" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1071" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Start/StartCommandHandler.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Start/StartCommandHandler.cs" initialLine="20">
+            <startOffsets>
+              <option value="650" />
+            </startOffsets>
+            <endOffsets>
+              <option value="853" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Start/StartCommandHandler.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Start/StartCommandHandler.cs" initialLine="25">
+            <startOffsets>
+              <option value="879" />
+            </startOffsets>
+            <endOffsets>
+              <option value="896" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" initialLine="30">
+            <startOffsets>
+              <option value="1085" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1141" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs</url>
+          <line>33</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" initialLine="32">
+            <startOffsets>
+              <option value="1167" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1417" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" initialLine="39">
+            <startOffsets>
+              <option value="1443" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1491" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" initialLine="41">
+            <startOffsets>
+              <option value="1505" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1738" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" initialLine="53">
+            <startOffsets>
+              <option value="1980" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1997" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs</url>
+          <line>49</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Documents/DocumentCommandHandler.cs" initialLine="48">
+            <startOffsets>
+              <option value="1764" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1954" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/BooksProfile.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/BooksProfile.cs" initialLine="10">
+            <startOffsets>
+              <option value="220" />
+            </startOffsets>
+            <endOffsets>
+              <option value="423" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/DocumentProfile.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/DocumentProfile.cs" initialLine="10">
+            <startOffsets>
+              <option value="230" />
+            </startOffsets>
+            <endOffsets>
+              <option value="467" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/StartProfile.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/StartProfile.cs" initialLine="10">
+            <startOffsets>
+              <option value="220" />
+            </startOffsets>
+            <endOffsets>
+              <option value="442" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommandHandler.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommandHandler.cs" initialLine="28">
+            <startOffsets>
+              <option value="997" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1132" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommandHandler.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.Commands/Error/UnhandledCommandHandler.cs" initialLine="29">
+            <startOffsets>
+              <option value="1149" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1233" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/UnhandledProfile.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/BetterRead.FunctionApp/Mappings/UnhandledProfile.cs" initialLine="10">
+            <startOffsets>
+              <option value="228" />
+            </startOffsets>
+            <endOffsets>
+              <option value="450" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

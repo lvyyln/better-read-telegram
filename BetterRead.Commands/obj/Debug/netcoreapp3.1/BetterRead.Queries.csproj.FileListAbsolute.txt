@@ -1,0 +1,13 @@
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/bin/Debug/netcoreapp3.1/BetterRead.Queries.deps.json
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/bin/Debug/netcoreapp3.1/BetterRead.Queries.dll
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/bin/Debug/netcoreapp3.1/BetterRead.Queries.pdb
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/bin/Debug/netcoreapp3.1/BetterRead.Configuration.dll
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/bin/Debug/netcoreapp3.1/BetterRead.MediatR.Core.dll
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/bin/Debug/netcoreapp3.1/BetterRead.Configuration.pdb
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/bin/Debug/netcoreapp3.1/BetterRead.MediatR.Core.pdb
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/obj/Debug/netcoreapp3.1/BetterRead.Queries.csprojAssemblyReference.cache
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/obj/Debug/netcoreapp3.1/BetterRead.Queries.AssemblyInfoInputs.cache
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/obj/Debug/netcoreapp3.1/BetterRead.Queries.AssemblyInfo.cs
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/obj/Debug/netcoreapp3.1/BetterRead.Queries.csproj.CopyComplete
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/obj/Debug/netcoreapp3.1/BetterRead.Queries.dll
+/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.Queries/obj/Debug/netcoreapp3.1/BetterRead.Queries.pdb

@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj",
+        "projectName": "BetterRead.Commands",
+        "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj",
+        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
+                "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj"
+              },
+              "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
+                "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "BetterRead.Shared": {
+              "target": "Package",
+              "version": "[1.6.0.51-beta, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj",
+        "projectName": "BetterRead.Configuration",
+        "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj",
+        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj",
+        "projectName": "BetterRead.MediatR.Core",
+        "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj",
+        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

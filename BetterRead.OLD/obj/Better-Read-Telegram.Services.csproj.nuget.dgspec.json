@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/Better-Read-Telegram.Services/Better-Read-Telegram.Services.csproj": {}
+  },
+  "projects": {
+    "/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/Better-Read-Telegram.Services/Better-Read-Telegram.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/Better-Read-Telegram.Services/Better-Read-Telegram.Services.csproj",
+        "projectName": "Better-Read-Telegram.Services",
+        "projectPath": "/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/Better-Read-Telegram.Services/Better-Read-Telegram.Services.csproj",
+        "packagesPath": "/Users/itkerry/.nuget/packages/",
+        "outputPath": "/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/Better-Read-Telegram.Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/itkerry/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "BetterRead.Shared": {
+              "target": "Package",
+              "version": "[1.6.0.49-beta, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

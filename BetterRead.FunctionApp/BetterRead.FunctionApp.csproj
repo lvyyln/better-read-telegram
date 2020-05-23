@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="5.1.4" />
+        <PackageReference Include="Autofac.Extensions.DependencyInjection.AzureFunctions" Version="6.0.0.44" />
+        <PackageReference Include="AutoMapper" Version="9.0.0" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+        <PackageReference Include="BetterRead.Shared" Version="1.6.0.51-beta" />
+        <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.3" />
+        <PackageReference Include="AzureFunctions.Extensions.Swashbuckle" Version="1.4.4" />
+        <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="4.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="host.json" />
+      <Content Include="host.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="certificate.pfx" />
+      <Content Include="certificate.pfx">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="appsettings.json" />
+      <Content Include="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="appsettings.Development.json" />
+      <Content Include="appsettings.Development.json">
+        <DependentUpon>appsettings.json</DependentUpon>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BetterRead.Commands\BetterRead.Commands.csproj" />
+      <ProjectReference Include="..\BetterRead.Configuration\BetterRead.Configuration.csproj" />
+      <ProjectReference Include="..\BetterRead.MediatR.Core\BetterRead.MediatR.Core.csproj" />
+    </ItemGroup>
+
+</Project>

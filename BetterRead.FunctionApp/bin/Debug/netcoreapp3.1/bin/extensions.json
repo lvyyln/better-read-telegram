@@ -1,0 +1,6 @@
+{
+  "extensions":[
+    { "name": "Startup", "typeName":"BetterRead.FunctionApp.Startup, BetterRead.FunctionApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"},
+    { "name": "ServiceBus", "typeName":"Microsoft.Azure.WebJobs.ServiceBus.ServiceBusWebJobsStartup, Microsoft.Azure.WebJobs.ServiceBus, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"}
+  ]
+}
