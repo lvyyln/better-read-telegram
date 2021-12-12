@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj": {}
+    "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj": {
+    "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Commands\\BetterRead.Commands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Commands\\BetterRead.Commands.csproj",
         "projectName": "BetterRead.Commands",
-        "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj",
-        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\obj\\",
+        "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Commands\\BetterRead.Commands.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Commands\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,12 +26,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj"
+              "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
+                "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\BetterRead.Configuration.csproj"
               },
-              "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj"
+              "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
+                "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj"
               }
             }
           }
@@ -47,6 +45,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "BetterRead.Shared": {
               "target": "Package",
@@ -72,24 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
+    "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\BetterRead.Configuration.csproj",
         "projectName": "BetterRead.Configuration",
-        "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj",
-        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\obj\\",
+        "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\BetterRead.Configuration.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,6 +97,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -112,6 +109,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -127,24 +125,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj": {
+    "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj",
         "projectName": "BetterRead.FunctionApp",
-        "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj",
-        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.FunctionApp\\obj\\",
+        "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.FunctionApp\\BetterRead.FunctionApp.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.FunctionApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,15 +151,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Commands\\BetterRead.Commands.csproj"
+              "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Commands\\BetterRead.Commands.csproj": {
+                "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Commands\\BetterRead.Commands.csproj"
               },
-              "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.Configuration\\BetterRead.Configuration.csproj"
+              "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\BetterRead.Configuration.csproj": {
+                "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.Configuration\\BetterRead.Configuration.csproj"
               },
-              "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
-                "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj"
+              "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
+                "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj"
               }
             }
           }
@@ -177,6 +173,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -226,24 +223,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
+    "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj",
         "projectName": "BetterRead.MediatR.Core",
-        "projectPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj",
-        "packagesPath": "C:\\Users\\lvyyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lvyyl\\Desktop\\New folder (2)\\BetterRead.MediatR.Core\\obj\\",
+        "projectPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\BetterRead.MediatR.Core.csproj",
+        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denis\\OneDrive\\Документи\\src\\better-read\\BetterRead.MediatR.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lvyyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -255,6 +249,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -266,6 +261,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -287,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

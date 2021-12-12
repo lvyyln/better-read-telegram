@@ -1,8 +1,0 @@
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/bin/Debug/netcoreapp3.1/BetterRead.OLD.deps.json
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/bin/Debug/netcoreapp3.1/BetterRead.OLD.dll
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/bin/Debug/netcoreapp3.1/BetterRead.OLD.pdb
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/obj/Debug/netcoreapp3.1/BetterRead.OLD.csprojAssemblyReference.cache
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/obj/Debug/netcoreapp3.1/BetterRead.OLD.AssemblyInfoInputs.cache
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/obj/Debug/netcoreapp3.1/BetterRead.OLD.AssemblyInfo.cs
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/obj/Debug/netcoreapp3.1/BetterRead.OLD.dll
-/Users/itkerry/Desktop/better-read-telegram-master/Better-Read-Telegram/BetterRead.OLD/obj/Debug/netcoreapp3.1/BetterRead.OLD.pdb

@@ -16,7 +16,7 @@ namespace BetterRead.Commands.Books
 {
     public class BookInfoCommandHandler : CommandHandlerBase<BookInfoCommand>
     {
-        private readonly Regex _regex = new Regex("http:\\/\\/loveread\\.ec\\/view_global\\.php\\?id=(?<!\\d)\\d{5}(?!\\d)");
+        private static readonly Regex _regex = new Regex("http:\\/\\/loveread\\.ec\\/view_global\\.php\\?id=(?<!\\d)\\d{5}(?!\\d)");
         private readonly Predicate<string> _condition = s => !_regex.IsMatch(s);
         private readonly ILoveRead _loveRead;
         private readonly ITelegramBotClient _botClient;
