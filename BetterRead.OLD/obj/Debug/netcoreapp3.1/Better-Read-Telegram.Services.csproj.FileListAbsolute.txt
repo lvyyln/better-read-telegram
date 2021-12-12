@@ -1,8 +1,0 @@
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\bin\Debug\netcoreapp3.1\Better-Read-Telegram.Services.deps.json
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\bin\Debug\netcoreapp3.1\Better-Read-Telegram.Services.dll
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\bin\Debug\netcoreapp3.1\Better-Read-Telegram.Services.pdb
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\obj\Debug\netcoreapp3.1\Better-Read-Telegram.Services.csprojAssemblyReference.cache
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\obj\Debug\netcoreapp3.1\Better-Read-Telegram.Services.AssemblyInfoInputs.cache
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\obj\Debug\netcoreapp3.1\Better-Read-Telegram.Services.AssemblyInfo.cs
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\obj\Debug\netcoreapp3.1\Better-Read-Telegram.Services.dll
-C:\Users\lvyyl\Documents\gitrepos\better-read-telegram\Better-Read-Telegram\Better-Read-Telegram.Services\obj\Debug\netcoreapp3.1\Better-Read-Telegram.Services.pdb
