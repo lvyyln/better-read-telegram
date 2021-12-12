@@ -1,8 +1,0 @@
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\bin\Debug\netcoreapp3.1\BetterRead.Configuration.deps.json
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\bin\Debug\netcoreapp3.1\BetterRead.Configuration.dll
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\bin\Debug\netcoreapp3.1\BetterRead.Configuration.pdb
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\obj\Debug\netcoreapp3.1\BetterRead.Configuration.csprojAssemblyReference.cache
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\obj\Debug\netcoreapp3.1\BetterRead.Configuration.AssemblyInfoInputs.cache
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\obj\Debug\netcoreapp3.1\BetterRead.Configuration.AssemblyInfo.cs
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\obj\Debug\netcoreapp3.1\BetterRead.Configuration.dll
-C:\Users\lvyyl\Desktop\New folder (2)\BetterRead.Configuration\obj\Debug\netcoreapp3.1\BetterRead.Configuration.pdb
